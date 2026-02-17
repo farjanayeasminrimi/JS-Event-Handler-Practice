@@ -1,0 +1,14 @@
+#comment-container,
+.textarea-container {
+  margin-left: 27px;
+  margin-top: 39px;
+}
+.comment {
+  padding: 16px;
+  background-color: bisque;
+  border-radius: 10px;
+}
+.textarea-box {
+  width: 400px;
+  height: 120px;
+}
