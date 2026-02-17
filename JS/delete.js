@@ -23,3 +23,16 @@ deleteInput.addEventListener("blur", function () {
     alert("Password must be 8 character");
   }
 });
+
+deleteInput.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    console.log("Form Submitted");
+  }
+});
+
+deleteInput.addEventListener("keydown", function (event) {
+  // console.log(event.target.value);
+});
+deleteInput.addEventListener("keyup", function (event) {
+  // console.log(event.target.value);
+});
